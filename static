@@ -1,0 +1,35 @@
+interface CityListRepositoryInterface
+{
+    public function getCity(Guid $guid);
+}
+
+class CityListRepositoryDb implements CityListRepositoryInterface
+{
+    public fuction getCity(Guid $guid)
+    {
+     // some code 1
+    }
+}
+
+class CityListRepositoryDb implements CityListRepositoryInterface
+{
+    public fuction getCity(Guid $guid)
+    {
+     // some code 1
+    }
+}
+------------------------------------------------------------------
+class CityList
+{
+  static public fuction getCityFromDB(Guid $guid)
+    {
+     // some code 2
+    }
+
+      static public fuction getCityFromCache(Guid $guid)
+    {
+     // some code 2
+    }
+}
+
+
